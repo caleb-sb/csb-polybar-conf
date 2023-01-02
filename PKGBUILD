@@ -1,7 +1,7 @@
 # Maintainer: Caleb Bredekamp
 pkgname=csb-polybar-conf-git
 _pkgname=csb-polybar-conf
-pkgver=v0.0.1.r1.g03dfc44
+pkgver=v0.0.1.r1.g8dccbf6
 pkgrel=1
 _destname1="/etc/skel/.config/polybar/"
 pkgdesc="Caleb's polybar configuration"
@@ -10,7 +10,7 @@ url="https://github.com/caleb-sb/${_pkgname}.git"
 license=('MIT')
 depends=('polybar')
 makedepends=('git')
-replaces=()
+replaces=("arcolinux-polybar-git")
 provides=("${pkgname}")
 conflicts=()
 options=(!strip !emptydirs)
