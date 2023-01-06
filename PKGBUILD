@@ -1,7 +1,7 @@
 # Maintainer: Caleb Bredekamp
 pkgname=csb-polybar-conf-git
 _pkgname=csb-polybar-conf
-pkgver=v0.0.1.r4.g42678ac
+pkgver=v0.0.1.r5.g7768708
 pkgrel=1
 _destname1="/etc/skel/.config/polybar/"
 pkgdesc="Caleb's polybar configuration"
